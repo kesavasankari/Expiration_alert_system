@@ -1,7 +1,19 @@
 spring:
   application:
-    name: expirtion_alert
+    name: expiration_alert
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/expiry
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 
-#server:
-#  port: 8081
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8081
