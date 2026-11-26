@@ -1,4 +1,4 @@
 package com.expirtion_alert.dto;
 
-public class AuthResponse {
+public record AuthResponse(String token, String refreshToken) {
 }

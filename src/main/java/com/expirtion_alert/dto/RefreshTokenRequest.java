@@ -1,4 +1,9 @@
 package com.expirtion_alert.dto;
 
-public record RefreshTokenRequest() {
+import jakarta.validation.constraints.NotBlank;
+
+public record RefreshTokenRequest(
+        @NotBlank
+        String refreshToken
+) {
 }
