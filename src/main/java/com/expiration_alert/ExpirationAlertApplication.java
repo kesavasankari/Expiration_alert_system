@@ -1,4 +1,4 @@
-package com.expirtion_alert;
+package com.expiration_alert;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
