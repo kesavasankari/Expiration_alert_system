@@ -1,13 +1,13 @@
-package com.expirtion_alert;
+package com.expiration_alert;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExpirtionAlertApplication {
+public class ExpirationAlertApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExpirtionAlertApplication.class, args);
+		SpringApplication.run(ExpirationAlertApplication.class, args);
 	}
 
 }

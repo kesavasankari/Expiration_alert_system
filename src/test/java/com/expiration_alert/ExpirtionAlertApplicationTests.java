@@ -1,4 +1,4 @@
-package com.expirtion_alert;
+package com.expiration_alert;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
