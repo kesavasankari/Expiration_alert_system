@@ -20,3 +20,6 @@ jwt:
   secret: P4J0AqZJ7Xz8gL2D4p5q1Kq7j8z9yA1bC3dE5fG6hI7jK8lM9nO0pQ==
   access-token-expiration: 900000
   refresh-token-expiration: 604800000
+
+
+server.port: 8081

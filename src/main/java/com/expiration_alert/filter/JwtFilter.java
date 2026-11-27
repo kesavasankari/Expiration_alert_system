@@ -1,7 +1,7 @@
-package com.expirtion_alert.filter;
+package com.expiration_alert.filter;
 
-import com.expirtion_alert.service.CustomUserDetailService;
-import com.expirtion_alert.util.JwtUtil;
+import com.expiration_alert.service.CustomUserDetailService;
+import com.expiration_alert.util.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.expirtion_alert.dto;
+package com.expiration_alert.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

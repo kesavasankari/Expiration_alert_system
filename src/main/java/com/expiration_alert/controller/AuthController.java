@@ -1,11 +1,11 @@
-package com.expirtion_alert.controller;
+package com.expiration_alert.controller;
 
-import com.expirtion_alert.dto.AuthResponse;
-import com.expirtion_alert.dto.LoginRequest;
-import com.expirtion_alert.dto.RefreshTokenRequest;
-import com.expirtion_alert.dto.UserRequest;
-import com.expirtion_alert.service.UserServiceImpl;
-import com.expirtion_alert.util.JwtUtil;
+import com.expiration_alert.dto.AuthResponse;
+import com.expiration_alert.dto.LoginRequest;
+import com.expiration_alert.dto.RefreshTokenRequest;
+import com.expiration_alert.dto.UserRequest;
+import com.expiration_alert.service.UserServiceImpl;
+import com.expiration_alert.util.JwtUtil;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

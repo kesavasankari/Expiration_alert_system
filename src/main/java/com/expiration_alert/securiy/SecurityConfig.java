@@ -1,8 +1,8 @@
-package com.expirtion_alert.securiy;
+package com.expiration_alert.securiy;
 
 
-import com.expirtion_alert.filter.JwtFilter;
-import com.expirtion_alert.service.CustomUserDetailService;
+import com.expiration_alert.filter.JwtFilter;
+import com.expiration_alert.service.CustomUserDetailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

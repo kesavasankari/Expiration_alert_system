@@ -1,9 +1,9 @@
-package com.expirtion_alert.service;
+package com.expiration_alert.service;
 
-import com.expirtion_alert.dto.UserRequest;
-import com.expirtion_alert.entity.User;
-import com.expirtion_alert.exception.EmailAlreadyExists;
-import com.expirtion_alert.repo.UserRepo;
+import com.expiration_alert.dto.UserRequest;
+import com.expiration_alert.entity.User;
+import com.expiration_alert.exception.exception.EmailAlreadyExists;
+import com.expiration_alert.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
 
-    private final UserRepo repo;
+    private final UserRepository repo;
     private final PasswordEncoder encoder;
 
     @Override

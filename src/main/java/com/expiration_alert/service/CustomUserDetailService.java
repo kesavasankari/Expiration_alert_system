@@ -1,7 +1,7 @@
-package com.expirtion_alert.service;
+package com.expiration_alert.service;
 
-import com.expirtion_alert.entity.User;
-import com.expirtion_alert.repo.UserRepo;
+import com.expiration_alert.entity.User;
+import com.expiration_alert.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class CustomUserDetailService implements UserDetailsService {
 
-    private final UserRepo repo;
+    private final UserRepository repo;
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {

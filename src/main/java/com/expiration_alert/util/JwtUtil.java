@@ -1,4 +1,4 @@
-package com.expirtion_alert.util;
+package com.expiration_alert.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
